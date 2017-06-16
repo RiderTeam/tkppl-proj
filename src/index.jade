@@ -7,6 +7,7 @@ html
 
     link(rel='stylesheet', type='text/css', href='build/build.css')
     link(rel='stylesheet', type='text/css', href='build/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='build/etalage.css')
 
   body
   .container
@@ -53,9 +54,34 @@ html
 
           img.logo(src='images/drone.png')
 
-        section
-          h2 Keyboard Interaction
-          h3 Powered by <a href="https://github.com/markdalgleish/bespoke-keys">bespoke-keys</a>
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
+          .container
+            .col.lg-8
+              .row
+                ul#etalage
+                  li
+                    img.etalage_thumb_image(src='./images/master.png')
+                    img.etalage_source_image(src='./images/master.png') 
+                  li
+                    img.etalage_thumb_image(src='./images/admin.png')
+                    img.etalage_source_image(src='./images/admin.png') 
+                  li
+                    img.etalage_thumb_image(src='./images/admin2.png')
+                    img.etalage_source_image(src='./images/admin2.png') 
+                  li
+                    img.etalage_thumb_image(src='./images/hacker.png')
+                    img.etalage_source_image(src='./images/hacker.png') 
+
+          div.sideright Nama Anggota
+            h2.tim Kenny [15.111.1968]
+            
+            h2.tim Surya Imran Halim [15.111.1348]
+            
+            h2.tim Edwin [15.111.0466]
+
+            h2.tim Felix [15.111.1763]
+
+          row.edu 2017
 
         section
           h2 Touch Interaction
@@ -110,3 +136,20 @@ html
     script(src='build/build.js')
     script(src='build/jquery.js')
     script(src='build/bootstrap.min.js')
+    script(src='build/jquery.etalage.min.js')
+
+    script.
+      jQuery(document).ready(function($){
+      $('#etalage').etalage({
+      thumb_image_width: 150,
+      thumb_image_height: 200,
+      show_hint: true,
+      click_callback: function(image_anchor, instance_id){
+      alert('Callback example:\\nYou clicked on an image with the anchor: "'+image_anchor+'"\n(in Etalage instance: "'+instance_id+'")');
+      }
+      });
+      // This is for the dropdown list example:
+      $('.dropdownlist').change(function(){
+      etalage_show( $(this).find('option:selected').attr('class') );
+      });
+      });
