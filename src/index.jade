@@ -8,6 +8,7 @@ html
     link(rel='stylesheet', type='text/css', href='build/build.css')
     link(rel='stylesheet', type='text/css', href='build/bootstrap.min.css')
     link(rel='stylesheet', type='text/css', href='build/etalage.css')
+    link(rel='stylesheet', type='text/css', href='build/animate.css')
 
   body
   .container
@@ -31,11 +32,11 @@ html
                   |  File Presentasi
                 ul.dropdown-menu(role='menu')
                   li
-                    a(href='#') #
+                    a(href='#3') Pengertian Drone
                   li
-                    a(href='#') #
+                    a(href='#4') Sejarah singkat tentang Drone
                   li
-                    a(href='#') #
+                    a(href='#6') Jenis Drone
                   li
                     a(href='#') #
                   li
@@ -83,33 +84,35 @@ html
 
           row.edu 2017
 
-        section
-          h2 Touch Interaction
-          h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
+          h3.jdl3.animated.infinite.bounce Pengertian Drone
+          
+          img.img-responsive(src='images/dronex.gif') 
+          
+          span.par1 Drone [Helicam] adalah sebuah alat unik yang bisa memotret atau merekam gambar dari ketinggian maksimal 11.000 kaki, karena alat ini memang bisa terbang. Prinsip alat ini menggunakan kamera Canon 7D DSLR, selain itu alat ini juga di lengkapi dengan GPS (Global Position System) yang memungkinkan tetap dapat memonitor keberadaan alat ini saat terbang dan dengan sistem monitor 5.8GHz video memungkinkan untuk dapat melihat setiap momen yang tertangkap kamera alat ini.
 
-        section
-          h2 Responsive Slides
-          h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
+          h3.jdl3 Sejarah singkat tentang Drone
 
-        section
-          h2 Bullet List
-          h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
-          ul
-            li Bullet 1
-            li Bullet 2
-            li Bullet 3
+          span.par1 Drone (Pesawat tanpa Awak) sebenarnya ide yang berkembang sejak awal abad 19, sebelum Perang Dunia I. Wikipedia yang merujuk makalah dari "Centre for Telecommunications and Information Engineering (CTIE)"" Monash University menyebut bahwa konsep pesawat tanpa awak ini pertama kali digunakan 22 Agustus 1849. Saat itu, Austria yang menguasai mayoritas wilayah Italia meluncurkan sekitar 200 balon udara tanpa awak ke Venesia. Balon-balon itu memuat bom yang dilengkapi dengan sumbu waktu. Ada pula informasi bahwa balon itu juga memakai sekering listrik yang diaktifkan dengan sinyal melalui kabel-kabel tembaga yang dipasang di sekitar balon.
 
-        section
-          h2 Syntax Highlighting
-          h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
-          pre
-            code.language-javascript.
-              bespoke.from('article', [
-                classes(),
-                keys(),
-                touch(),
-                bullets('li, .bullet')
-              ]);
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
+          span.par1.layout14 Kemudian, pada 8 November 1898 Nicolas Tesla, penemu AS keturunan Serbia mematenkan remote control atau pengendali jarak jauh temuannya. Remote control ini menjadi dasar ilmu robotik kontemporer. Tesla membuat kapal dan balon yang bisa dikendalikan dari jarak jauh. Setelah itu teknologi berkembang dengan pesatnya. Teknologi pesawat-pesawat aeromodel yang dikendalikan jarak jauh pun berkembang pesat. 
+          
+          div
+          span.par1.par_mar.layout14 Seiring dengan berkembangnya zaman, maka teknologi yang dipakai dalam drone semakin canggih, selain itu kegunaan drone juga terus berkembang tak hanya dalam bidang militer saja. 
+
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
+          img.responsive(src='images/elang.gif')
+          span.jenis.animated.infinite.rubberBand 
+            div.slide6 Jenis Drone
+
+          ul.poin.sub-slide
+            li 
+            li.span.glyphicon.glyphicon-screenshot.icon Multicopter  
+            li.coba Keuntungan dari multicopter bisa terbang vertikal hingga 300 meter. Jenis drone ini dapat terbang selama 40 menit dengan area cover 100 - 400 hektare.
+            li.span.glyphicon.glyphicon-screenshot.icon Fixed Wing
+            li.coba Untuk jenis fixed wing, meski bisa meliputi area yang jauh lebih luas dan terbang hingga 1.5 jam, drone ini tidak bisa terbang secara vertikal.
 
         section(data-bespoke-hash='named-route')
           h2 Named Route
