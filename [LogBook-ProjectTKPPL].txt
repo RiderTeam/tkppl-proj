@@ -1,0 +1,41 @@
+***===***===***===***===***===***===***===***===***===***===***===***===***
+INFORMASI UMUM
+
+Nama Kelompok 	: RiderTeam
+Judul Topik	: Helicam of Technology Drone
+Alamat Github	: https://github.com/RiderTeam/tkppl-proj
+Alamat Trello	: https://trello.com/b/QQtxadD2/presentasi-tkppl-2017
+
+Nama Anggota RiderTeam :
+1. 15.111.1968		[Kenny]		
+2. 15.111.1348		[Surya Imran Halim]		
+3. 15.111.0466		[Edwin]	
+4. 15.111.1763		[Felix]
+
+***===***===***===***===***===***===***===***===***===***===***===***===***
+
+------------
+:: SPRINT ::
+------------
+
+16 Juni - 18 Juni 
+Sprint 1 
+	> Scrummaster : KENNY (15.111.1968)
+	  - Pembuatan repository global di https://github.com
+	  - Commit pertama
+
+Sprint 2
+	> Surya Imran Halim (15.111.1348)
+	  - Desain template slide presentasi
+	  
+Sprint 3
+	> Edwin (15.111.0466)
+	  - Mencari bahan - bahan presentasi
+	
+Sprint 4
+	> Felix (15.111.1763)
+	  - Mencari bahan - bahan presentasi
+
+
+
+
