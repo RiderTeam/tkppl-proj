@@ -38,7 +38,7 @@ html
                   li
                     a(href='#6') Jenis Drone
                   li
-                    a(href='#') #
+                    a(href='#7') Bagian Komponen Drone
                   li
                     a(href='#') #
                   li
@@ -114,27 +114,65 @@ html
             li.span.glyphicon.glyphicon-screenshot.icon Fixed Wing
             li.coba Untuk jenis fixed wing, meski bisa meliputi area yang jauh lebih luas dan terbang hingga 1.5 jam, drone ini tidak bisa terbang secara vertikal.
 
-        section(data-bespoke-hash='named-route')
-          h2 Named Route
-          h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-          p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
+          h3.jdl4 Bagian Komponen Drone
+
+          div.copterX
+            span.bagian ROTOR
+              div
+              span.uavX Dinamo pengerak dari propeller dan jumlahnya tergantung dari jenis drone itu sendiri, besaran rotornya juga tergantung dari besar kecilnya drone.
+
+          img.gambar(src='images/rotor.jpg')
 
         section.emphatic-text(data-bespoke-backdrop='emphatic')
-          h2 Emphatic Slide!
-          h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
+          div.copterX
+            span.bagian GIMBAL
+              div
+              span.uavX System penstabil dari camera, juga sebagai penghubung antara drone dan camera. Bentuknya masing masing berbeda tetapi memiliki kegunaan yang sama yaitu membuat stabil pengambilan foto atau video dengan menggunakan drone sehingga guncangan dari drone, dan angin tidak membuat foto mejadi goyang atau blur.
+          
+          img.gambar(src='images/gimbal.jpg')
 
-        section
-          h2.bullet Just the beginning...
-          br
-          ul
-            li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-            li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-            li Edit JavaScript in <em>'src/scripts/main.js'</em>
-          br
-          ul
-            li
-              strong Enjoy! :)
-              a(href='http://twitter.com/markdalgleish')  -@markdalgleish
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
+          div.copterX
+            span.bagian CAMERA
+              div
+              span.uavX Camera yang dipakai untuk menampilkan image untuk melihat, memotret, melakukan recording video.
+
+          img.gambar(src='images/kamera.jpg')
+
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
+          div.copterX
+            span.bagian PROPELLER
+              div
+              span.uavX Baling baling yang dipakai untuk memberikan daya angkat pada drone, pengendali arah, dan penyeimbang, jumlah dari propeller tersebut bervariasi ada yang yang jumlahnya 2, 3, 4, 8 dan seteterusnya.
+
+          img.gambar(src='images/propeller.jpg')
+
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
+          div.copterX
+            span.bagian LANDING SKID
+              div
+              span.uavX Kaki drone yang dipakai untuk melakukan pendaratan, bentuknya bermacam macam dan terkadang bisa digerakan naik dan turun sesuai kebutuhan. 
+
+          img.gambar(src='images/landing.jpg')
+
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
+          div.copterX
+            span.bagian SHOCK ABSORBER
+              div
+              span.uavX Peredam getaran yang dipakai di drone untuk membantu memberikan keseimbagan camera sehingga tetap lurus dan stabil, tidak semuanya drone memiliki  ini tetapi didalam gimbal sudah ada fungsi ini.
+
+          img.gambar(src='images/shock.jpg')
+
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
+          div.copterX
+            span.bagian REMOTE CONTROL
+              div
+              span.uavX Berfungsi untuk menggerakkan drone dari jarak jauh. biasa di drone RC ini dipasangkan dengan device seperti smartpone, tablet, komputer yang dipakai untuk visualisasi dari drone itu sendiri dan memantau pergerakannya dari jarak jauh
+
+          img.gambar(src='images/rc.jpg')
+
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
 
     script(src='build/build.js')
     script(src='build/jquery.js')
